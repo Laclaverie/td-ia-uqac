@@ -51,10 +51,12 @@ Première phase : apprentissage avec la méthode non-informée
 Deuxième phase : utilisation de la méthode informée
 
 Transition :
+
 ![transition](ress/images/phase2.jpg "Transition")
 
 Quelques autres exemples de retour
 Choix de ramasser un bijoux et generer une poussiere en même temps
+
 ![multiples genenation](ress/images/detail.jpg)
 
 Generer aléatoirement
@@ -64,6 +66,7 @@ Generer aléatoirement
 
 
 # TD2 Generer et resoudre un Sudoku
+
 
 ## Objectif : Resoudre automatiquement un Sudoku
 
@@ -77,9 +80,12 @@ Si dans le cas d’utilisation de l’AC3 avec le nombre de cases pré-remplies 
 
 
 ### Backtracking
+
 La méthode a été implémentée via la classe `Backtracking.py`, un extrait de code y est présenté ici. C'est RecuriveBackTracking qui est utilisé principalement. Le code est disponible [ici](TP2/Backtracking.py)
 ![Recursive Backtracking](ress/images/Backtracking.jpg)
+
 ### AC3 
+
 La méthode a été implémentée via la classe `AC3.py`, La methode est presentee ici. La classe en son entieretee est disponible [ici](TP2/AC3.py) 
 
 ![AC3](ress/images/AC3.jpg)
@@ -140,11 +146,17 @@ Par exemple, voici un exemple de grille 3x3
 ![grille 3x3](ress/images/grille.jpg)
 
 Ensuite, le detail des actions effectuées est donné 
+
+
 ![detail des actions](ress/images/instructions.jpg)
+
+
 Et enfin en cas de reussite, la conclusion puis le passage au niveau superieur 
 ![passage au niveau sup](ress/images/fin.jpg)
 
 Dans notre lance, au niveau 5 il n'a pas reussi a sauver la victime 
+
+
 ![grille](ress/images/grille-bad.jpg)
 
 En effet la victime est en bas à gauche de l'écran, elle est entourée de décombres. L'agent n'aura d'autre choix pour s'approcher d'elle que de sombrer dans les décombres.
