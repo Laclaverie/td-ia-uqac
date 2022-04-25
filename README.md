@@ -143,6 +143,8 @@ Legende :
 Par defaut, le niveau initial est de trois (3), il augmente a chaque fois jusau'a que le robot echoue.
 
 Par exemple, voici un exemple de grille 3x3 
+
+
 ![grille 3x3](ress/images/grille.jpg)
 
 Ensuite, le detail des actions effectuées est donné 
