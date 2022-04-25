@@ -7,6 +7,31 @@ Code développé par :
 - Pierre LACLAVERIE 
 - Barnabé PORTIER 
 
+
+# Sommaire 
+
+- [8INF846](#8inf846)
+- [Sommaire](#sommaire)
+- [TD1 Aspirateur et parcours non-informés et informés](#td1-aspirateur-et-parcours-non-informés-et-informés)
+  - [Objectif : Création d’un agent aspirateur](#objectif--création-dun-agent-aspirateur)
+  - [Méthode et algorithme](#méthode-et-algorithme)
+    - [Modélisation de l'agent](#modélisation-de-lagent)
+    - [Méthode non informée](#méthode-non-informée)
+    - [Méthode informée](#méthode-informée)
+  - [Resultat](#resultat)
+- [TD2 Generer et resoudre un Sudoku](#td2-generer-et-resoudre-un-sudoku)
+  - [Objectif : Resoudre automatiquement un Sudoku](#objectif--resoudre-automatiquement-un-sudoku)
+  - [Méthodes](#méthodes)
+    - [Backtracking](#backtracking)
+    - [AC3](#ac3)
+  - [Resultats](#resultats)
+- [Le robot qui sauve des vies](#le-robot-qui-sauve-des-vies)
+  - [Objectif](#objectif)
+  - [Methode et algorithme](#methode-et-algorithme)
+  - [Methode](#methode)
+  - [Algorithme](#algorithme)
+  - [Resultat](#resultat-1)
+
 # TD1 Aspirateur et parcours non-informés et informés
 [Sujet](ress/pdf/Sujet1.pdf)
 [Rapport](ress/pdf/Rapport_TP1.pdf)
@@ -120,7 +145,7 @@ Effecteur : permet à l’agent d’agir sur l’environnement : se déplacer, �
 
 L’Agent commence par charger son environnement. Il utilise ensuite son Capteur pour déterminer l’état des cases sur lesquelles il peut se déplacer. L’Agent décide ensuite de sa prochaine action, il appelle alors l’Effecteur pour la réaliser.
 
-## Methode
+## Algorithme
 
 Pour pouvoir arriver a ce resultat, l'agent ne peut voir que a une seule case autour de lui. Il va chercher a savoir qu'est ce qui probablement etre pour le voisin du voisin. 
 
